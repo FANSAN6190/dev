@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+  <title>Forms</title>
+</head>
+<body>
+  <form action="#" method="post">
+  {% csrf_token %}
+  <form>
+    <p> Name:<input type="text" value="your name"></p>
+    <p>Remember me:<input type="checkbox" checked></p>
+    <p>Gender:M<input type="radio" name="Gender"> F<input type="radio" name="Gender"></p>
+    
+  Secrity Questions:
+    <select>
+      <option>Favourite Website</option>
+      <option>Nick name</option>
+      <option>School Name</option>
+      <option selected>your Planet</option>
+    </select>
+  
+    Answer:<input type="text" value="your Answer">
+  <input type="submit" value="Sign Up">
+  </form>
+</body>
+</html>

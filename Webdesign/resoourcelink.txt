@@ -1,0 +1,6 @@
+https://caniuse.com/   #"Can I use" provides up-to-date browser support tables for support 
+                        of front-end web technologies on desktop and mobile web browsers.
+
+https://www.w3.org/    #The World Wide Web Consortium (W3C) is an international community 
+                        that develops open standards to ensure the long-term growth of the Web.
+                        
