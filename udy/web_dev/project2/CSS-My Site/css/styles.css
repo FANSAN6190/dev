@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0px;
+}
+h1{
+    margin-top: 0;
+    display: none;
+}
+.blue{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: relative;
+    left: 0px;
+}
+.yellow{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: relative;
+    left: 200px; 
+    bottom: 200px;
+}
+.red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    left: 400px;
+    bottom: 400px;
+}

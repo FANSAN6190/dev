@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(196, 233, 243);
+}
+h1{
+    color: rgb(62, 179, 242);
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: rgb(47, 141, 241) ;
+}
+p{
+    text-align: center;
+    color: rgb(1, 1, 98);
+}
+table{
+    text-align: center;
+}
+hr{
+    border-color: rgb(255, 255, 255);
+    border-style:none;
+    border-top-style:dotted;
+    height: 0px;
+    width: 50px;
+    border-width: 5px;
+} 
+img{
+    height: 200px;
+    width: 400px;
+}
