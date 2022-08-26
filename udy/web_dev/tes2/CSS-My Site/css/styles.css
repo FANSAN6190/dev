@@ -1,11 +1,17 @@
 body{
     margin: 0;
     padding: 0px;
+    text-align: center;
+    font-family:cursive,Verdana, Geneva, Tahoma, sans-serif;
+    
 }
+
 h1{
+    width: 50%;
     margin-top: 0;
-    display: none;
+    margin: 0 auto;
 }
+
 .blue{
     height: 200px;
     width: 200px;
@@ -28,4 +34,18 @@ h1{
     position: relative;
     left: 400px;
     bottom: 400px;
+}
+.cl1{
+    position: relative;
+    left: 300px;
+    margin-top: 100px ; 
+}
+.cl2{
+    position: relative;
+    bottom: 300px;
+}
+.icon{
+    height: 10%;
+    width: 10%;
+    visibility: hidden;
 }
