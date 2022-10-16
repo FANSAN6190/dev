@@ -15,12 +15,13 @@ app.use(bodyParser.urlencoded({extended:true}));
     res.send("Result = "+result)
     console.log(req.body);
 });
+
 app.get("/bmicalc",function(req,res){
    res.sendFile(__dirname+"/bmicalc.html")
 });
 app.post("/bmicalc",function(req,res){
-   var w=parseFloat(req.body.weight);
-   var h=parseFloat(req.body.height);
+   var w=Number(req.body.w);
+   var h=Number(req.body.h);
    var bmi=w/(h*h);
    res.send("BMI Index = "+bmi);
 });
