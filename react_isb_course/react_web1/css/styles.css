@@ -1,0 +1,39 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 50%;
+    padding-top: 5%;
+}
+form{
+    border-style:solid;
+    border-radius: 20px;
+    width: 15%;
+    padding: 40px;
+    position: relative;
+    left: 43%;
+
+    background-color: rgb(53, 238, 115);
+    background-blend-mode: color-burn;
+}
+body{
+    background-color: rgb(201, 255, 255);
+}
+input{
+    width: 100%;
+}
+.auth{
+    width: 100px;
+    font-size: large;
+    padding: 5px;
+    position: relative;
+    left: 50%;
+    top: 20px;
+}
+.home_btn{
+    width: 100px;
+    font-size: large;
+    padding: 5px;
+    position: relative;
+    left: 47%;
+    top: 20px;
+}
